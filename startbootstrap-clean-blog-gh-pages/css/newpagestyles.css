@@ -1,0 +1,77 @@
+body, h1, h2, h3, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  ol, ul {
+    margin-bottom: 15px;
+    margin-left: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Custom styles */
+  body {
+    background-color: #ffeecc;
+  }
+  
+  .ingredient-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  .small-image-with-border {
+    width: 75px; /* Adjust the width to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Add a border with 2px width and light gray color */
+    border-radius: 5px; /* Add rounded corners to the border */
+  }
